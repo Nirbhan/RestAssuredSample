@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="RestAssuredSuite" verbose="1" >
+    <test name="Regression">
+        <classes>
+            <class name="RestTest.RestAssuredTest"/>
+            <class name="RestTest.RestAssuredTest2API"/>
+        </classes>
+    </test>
+</suite>
+        git remote add origin https://github.com/Nirbhan/RestAssuredSample.git
+        git push -u origin master
