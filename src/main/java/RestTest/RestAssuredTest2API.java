@@ -2,10 +2,8 @@ package RestTest;
 
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
-
 import java.net.URI;
 import java.net.URISyntaxException;
-
 import static io.restassured.RestAssured.given;
 
 public class RestAssuredTest2API {

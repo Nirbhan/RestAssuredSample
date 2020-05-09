@@ -7,5 +7,3 @@
         </classes>
     </test>
 </suite>
-        git remote add origin https://github.com/Nirbhan/RestAssuredSample.git
-        git push -u origin master

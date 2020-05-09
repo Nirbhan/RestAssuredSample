@@ -1,5 +1,6 @@
 package RestTest;
 
+
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 import org.testng.annotations.BeforeMethod;
@@ -24,7 +25,7 @@ public class RestAssuredTest {
     @Test
     public void testStatusCode(){
         int code = given().get(uri).thenReturn().getStatusCode();
-        System.out.println(code);
+        System.out.println("Code is -" + code);
 //      Response response = given().accept(ContentType.XML).get("http://jsonplaceholder.typicode.com/posts/3");
 //      System.out.println(response.toString());
 //      Assert.assertEquals(HttpStatus.SC_OK,code);
@@ -40,14 +41,9 @@ public class RestAssuredTest {
     public void useHeaderReuest() {
     Map<String,String> headermap = new HashMap();
     headermap.put("Accept","application/json");
-    Map<String,String> headermap2 = new HashMap();
-    headermap2.put("Accept","application/xml");
     String body = given().headers(headermap).get(uri).thenReturn().body().asString();
     System.out.println(body);
-    System.out.println(given().headers(headermap2).get(uri).thenReturn().body().asString());
     }
-
-
 
     @Test
     public void testResponseContent() {
@@ -67,7 +63,7 @@ public class RestAssuredTest {
     public void nestedJsonObjectResponseContentContains() {
         Map<String,String> headermap = new HashMap();
         headermap.put("Accept","application/json");
-        given().headers(headermap).get(uri).then().body("title", equalToIgnoringCase("ea molestias quasi exercitationem repellat qui ipsa sit aut"), "body",containsString("occaecati"));
+        given().headers(headermap).get(uri).then().body("body",containsString("occaecati"));
     }
 
     @Test
@@ -80,5 +76,6 @@ public class RestAssuredTest {
         System.out.println(jsonPath.getInt("id"));
         System.out.println(jsonPath.getString("email"));
     }
+
 
 }

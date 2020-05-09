@@ -2,82 +2,82 @@
 <testng-results skipped="0" failed="0" ignored="0" total="9" passed="9">
   <reporter-output>
   </reporter-output>
-  <suite name="RestAssuredSuite" duration-ms="7606" started-at="2020-05-05T15:50:02 IST" finished-at="2020-05-05T15:50:10 IST">
+  <suite name="RestAssuredSuite" duration-ms="5109" started-at="2020-05-06T19:10:46 IST" finished-at="2020-05-06T19:10:51 IST">
     <groups>
     </groups>
-    <test name="Regression" duration-ms="7606" started-at="2020-05-05T15:50:02 IST" finished-at="2020-05-05T15:50:10 IST">
+    <test name="Regression" duration-ms="5109" started-at="2020-05-06T19:10:46 IST" finished-at="2020-05-06T19:10:51 IST">
       <class name="RestTest.RestAssuredTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:RestTest.RestAssuredTest@148080bb]" name="setup" is-config="true" duration-ms="6" started-at="2020-05-05T15:50:02 IST" finished-at="2020-05-05T15:50:02 IST">
+        <test-method status="PASS" signature="setup()[pri:0, instance:RestTest.RestAssuredTest@148080bb]" name="setup" is-config="true" duration-ms="6" started-at="2020-05-06T19:10:46 IST" finished-at="2020-05-06T19:10:46 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="getResponseBody()[pri:0, instance:RestTest.RestAssuredTest@148080bb]" name="getResponseBody" duration-ms="4505" started-at="2020-05-05T15:50:02 IST" finished-at="2020-05-05T15:50:07 IST">
+        <test-method status="PASS" signature="getResponseBody()[pri:0, instance:RestTest.RestAssuredTest@148080bb]" name="getResponseBody" duration-ms="2602" started-at="2020-05-06T19:10:46 IST" finished-at="2020-05-06T19:10:48 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResponseBody -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:RestTest.RestAssuredTest@148080bb]" name="setup" is-config="true" duration-ms="0" started-at="2020-05-05T15:50:07 IST" finished-at="2020-05-05T15:50:07 IST">
+        <test-method status="PASS" signature="setup()[pri:0, instance:RestTest.RestAssuredTest@148080bb]" name="setup" is-config="true" duration-ms="0" started-at="2020-05-06T19:10:48 IST" finished-at="2020-05-06T19:10:48 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="nestedJsonObjectResponseContent()[pri:0, instance:RestTest.RestAssuredTest@148080bb]" name="nestedJsonObjectResponseContent" duration-ms="1123" started-at="2020-05-05T15:50:07 IST" finished-at="2020-05-05T15:50:08 IST">
+        <test-method status="PASS" signature="nestedJsonObjectResponseContent()[pri:0, instance:RestTest.RestAssuredTest@148080bb]" name="nestedJsonObjectResponseContent" duration-ms="790" started-at="2020-05-06T19:10:48 IST" finished-at="2020-05-06T19:10:49 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- nestedJsonObjectResponseContent -->
-        <test-method status="PASS" signature="nestedJsonObjectResponseContentContains()[pri:0, instance:RestTest.RestAssuredTest@148080bb]" name="nestedJsonObjectResponseContentContains" duration-ms="191" started-at="2020-05-05T15:50:08 IST" finished-at="2020-05-05T15:50:08 IST">
+        <test-method status="PASS" signature="setup()[pri:0, instance:RestTest.RestAssuredTest@148080bb]" name="setup" is-config="true" duration-ms="0" started-at="2020-05-06T19:10:49 IST" finished-at="2020-05-06T19:10:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="nestedJsonObjectResponseContentContains()[pri:0, instance:RestTest.RestAssuredTest@148080bb]" name="nestedJsonObjectResponseContentContains" duration-ms="145" started-at="2020-05-06T19:10:49 IST" finished-at="2020-05-06T19:10:49 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- nestedJsonObjectResponseContentContains -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:RestTest.RestAssuredTest@148080bb]" name="setup" is-config="true" duration-ms="0" started-at="2020-05-05T15:50:08 IST" finished-at="2020-05-05T15:50:08 IST">
+        <test-method status="PASS" signature="setup()[pri:0, instance:RestTest.RestAssuredTest@148080bb]" name="setup" is-config="true" duration-ms="1" started-at="2020-05-06T19:10:49 IST" finished-at="2020-05-06T19:10:49 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:RestTest.RestAssuredTest@148080bb]" name="setup" is-config="true" duration-ms="1" started-at="2020-05-05T15:50:08 IST" finished-at="2020-05-05T15:50:08 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="responseBodyfilters()[pri:0, instance:RestTest.RestAssuredTest@148080bb]" name="responseBodyfilters" duration-ms="312" started-at="2020-05-05T15:50:08 IST" finished-at="2020-05-05T15:50:09 IST">
+        <test-method status="PASS" signature="responseBodyfilters()[pri:0, instance:RestTest.RestAssuredTest@148080bb]" name="responseBodyfilters" duration-ms="296" started-at="2020-05-06T19:10:49 IST" finished-at="2020-05-06T19:10:50 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- responseBodyfilters -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:RestTest.RestAssuredTest@148080bb]" name="setup" is-config="true" duration-ms="0" started-at="2020-05-05T15:50:09 IST" finished-at="2020-05-05T15:50:09 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="testResponseContent()[pri:0, instance:RestTest.RestAssuredTest@148080bb]" name="testResponseContent" duration-ms="150" started-at="2020-05-05T15:50:09 IST" finished-at="2020-05-05T15:50:09 IST">
+        <test-method status="PASS" signature="testResponseContent()[pri:0, instance:RestTest.RestAssuredTest@148080bb]" name="testResponseContent" duration-ms="174" started-at="2020-05-06T19:10:50 IST" finished-at="2020-05-06T19:10:50 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testResponseContent -->
-        <test-method status="PASS" signature="testStatusCode()[pri:0, instance:RestTest.RestAssuredTest@148080bb]" name="testStatusCode" duration-ms="139" started-at="2020-05-05T15:50:09 IST" finished-at="2020-05-05T15:50:09 IST">
+        <test-method status="PASS" signature="setup()[pri:0, instance:RestTest.RestAssuredTest@148080bb]" name="setup" is-config="true" duration-ms="0" started-at="2020-05-06T19:10:50 IST" finished-at="2020-05-06T19:10:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:RestTest.RestAssuredTest@148080bb]" name="setup" is-config="true" duration-ms="1" started-at="2020-05-06T19:10:50 IST" finished-at="2020-05-06T19:10:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testStatusCode()[pri:0, instance:RestTest.RestAssuredTest@148080bb]" name="testStatusCode" duration-ms="130" started-at="2020-05-06T19:10:50 IST" finished-at="2020-05-06T19:10:50 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testStatusCode -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:RestTest.RestAssuredTest@148080bb]" name="setup" is-config="true" duration-ms="0" started-at="2020-05-05T15:50:09 IST" finished-at="2020-05-05T15:50:09 IST">
+        <test-method status="PASS" signature="setup()[pri:0, instance:RestTest.RestAssuredTest@148080bb]" name="setup" is-config="true" duration-ms="0" started-at="2020-05-06T19:10:50 IST" finished-at="2020-05-06T19:10:50 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:RestTest.RestAssuredTest@148080bb]" name="setup" is-config="true" duration-ms="0" started-at="2020-05-05T15:50:09 IST" finished-at="2020-05-05T15:50:09 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="useHeaderReuest()[pri:0, instance:RestTest.RestAssuredTest@148080bb]" name="useHeaderReuest" duration-ms="238" started-at="2020-05-05T15:50:09 IST" finished-at="2020-05-05T15:50:09 IST">
+        <test-method status="PASS" signature="useHeaderReuest()[pri:0, instance:RestTest.RestAssuredTest@148080bb]" name="useHeaderReuest" duration-ms="114" started-at="2020-05-06T19:10:50 IST" finished-at="2020-05-06T19:10:50 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- useHeaderReuest -->
       </class> <!-- RestTest.RestAssuredTest -->
       <class name="RestTest.RestAssuredTest2API">
-        <test-method status="PASS" signature="setup()[pri:0, instance:RestTest.RestAssuredTest2API@dc24521]" name="setup" is-config="true" duration-ms="1" started-at="2020-05-05T15:50:09 IST" finished-at="2020-05-05T15:50:09 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="getResponseBody()[pri:0, instance:RestTest.RestAssuredTest2API@dc24521]" name="getResponseBody" duration-ms="576" started-at="2020-05-05T15:50:09 IST" finished-at="2020-05-05T15:50:10 IST">
+        <test-method status="PASS" signature="getResponseBody()[pri:0, instance:RestTest.RestAssuredTest2API@dc24521]" name="getResponseBody" duration-ms="510" started-at="2020-05-06T19:10:50 IST" finished-at="2020-05-06T19:10:51 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResponseBody -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:RestTest.RestAssuredTest2API@dc24521]" name="setup" is-config="true" duration-ms="0" started-at="2020-05-05T15:50:10 IST" finished-at="2020-05-05T15:50:10 IST">
+        <test-method status="PASS" signature="setup()[pri:0, instance:RestTest.RestAssuredTest2API@dc24521]" name="setup" is-config="true" duration-ms="0" started-at="2020-05-06T19:10:50 IST" finished-at="2020-05-06T19:10:50 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="testStatusCode()[pri:0, instance:RestTest.RestAssuredTest2API@dc24521]" name="testStatusCode" duration-ms="287" started-at="2020-05-05T15:50:10 IST" finished-at="2020-05-05T15:50:10 IST">
+        <test-method status="PASS" signature="setup()[pri:0, instance:RestTest.RestAssuredTest2API@dc24521]" name="setup" is-config="true" duration-ms="1" started-at="2020-05-06T19:10:51 IST" finished-at="2020-05-06T19:10:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testStatusCode()[pri:0, instance:RestTest.RestAssuredTest2API@dc24521]" name="testStatusCode" duration-ms="272" started-at="2020-05-06T19:10:51 IST" finished-at="2020-05-06T19:10:51 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testStatusCode -->
